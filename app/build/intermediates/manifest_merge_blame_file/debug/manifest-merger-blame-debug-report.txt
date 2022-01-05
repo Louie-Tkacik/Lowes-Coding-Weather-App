@@ -1,0 +1,63 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tkacik.weatherapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml:7:5-22:19
+14        android:name="com.tkacik.weatherapp.WeatherApp"
+14-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml:8:9-56
+15        android:allowBackup="true"
+15-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.6.0] C:\Users\louie\.gradle\caches\transforms-2\files-2.1\0c2f49adf1a6bc0c01cd3f16af75aa40\core-1.6.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml:11:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml:13:9-35
+22        android:theme="@style/Theme.WeatherApp" >
+22-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml:14:9-48
+23        <activity android:name="com.tkacik.weatherapp.view.MainActivity" >
+23-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml:15:9-21:20
+23-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml:15:19-73
+24            <intent-filter>
+24-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml:16:13-20:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml:17:17-69
+25-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml:17:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml:19:17-77
+27-->C:\Users\louie\Documents\WORK\WeatherApp\app\src\main\AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <provider
+31-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\louie\.gradle\caches\transforms-2\files-2.1\27c2abd9e9794331000244cf0d3d1085\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+32            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+32-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\louie\.gradle\caches\transforms-2\files-2.1\27c2abd9e9794331000244cf0d3d1085\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+33            android:authorities="com.tkacik.weatherapp.lifecycle-process"
+33-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\louie\.gradle\caches\transforms-2\files-2.1\27c2abd9e9794331000244cf0d3d1085\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+34            android:exported="false"
+34-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\louie\.gradle\caches\transforms-2\files-2.1\27c2abd9e9794331000244cf0d3d1085\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+35            android:multiprocess="true" />
+35-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\louie\.gradle\caches\transforms-2\files-2.1\27c2abd9e9794331000244cf0d3d1085\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+36    </application>
+37
+38</manifest>

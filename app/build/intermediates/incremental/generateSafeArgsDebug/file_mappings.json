@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.tkacik.weatherapp.view.fragments.SearchWeatherFragmentDirections","com.tkacik.weatherapp.view.fragments.ListWeatherFragmentDirections","com.tkacik.weatherapp.view.fragments.ListWeatherFragmentArgs","com.tkacik.weatherapp.view.fragments.DetailWeatherFragmentArgs"]}]
